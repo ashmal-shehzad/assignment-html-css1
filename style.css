@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "apercu";
+    src: url("./images/fonts/Apercu\ Light.otf");
+}
+body{
+    margin: 0;
+    font-family: apercu;
+}
+
+.background-image {
+    background-image: url("./images/waffff.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 700px;
+    background-position: top center;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+.nav-item{
+    margin-left: 40px;
+}
+
+.main-head-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.main-heading {
+    color: white;
+}
+
+.mainbody-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.yellow-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFBF00;
+    width: 18%;
+    margin-right: 50px;
+    padding: 20px;
+}
+.yellowbox-title {
+    margin: 0%;
+}
+.yellowbox-body {
+    margin: 0%;
+}
+
+.box-button {
+    width: 50%;
+    background-color: white;
+    border: 2px solid white;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box-button:hover {
+    background-color: burlywood;
+    color: black;
+}
+.desc-box {
+    width: 20%;
+
+}
+.desc-button {
+    background-color: #FFBF00;
+    border: 2px solid #FFBF00;
+    width: 30%;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.desc-button:hover {
+    background-color: burlywood;
+    color: black;
+
+}
+.mainpage-foot {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mission-box {
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    margin-right: 15px;
+    padding: 15px;
+}
+.donation-box {
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    margin-right: 15px;
+    padding: 15px;
+}
+.information-box {
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    margin-right: 15px;
+    padding: 15px;
+}
+.foot-color {
+    color: #FFBF00;
+}
+
+.footer-heading {
+    margin: 0;
+}
+
+.icon {
+    color: #FFBF00;
+    font-size: 30px;
+    margin-right: 10px;
+}
